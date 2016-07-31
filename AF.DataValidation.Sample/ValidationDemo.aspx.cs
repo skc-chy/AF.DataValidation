@@ -61,8 +61,8 @@ namespace AFDataValidation
                 if (validateResult.IsValid)
                 {
                     // var userContext = AF.EntityService.CreateUserContext(AF.SecurityService.Management.GetLoggedInUserID, AF.SecurityService.Management.GetLoggedInUserName);
-                    var buisnessLayer = new ValidationDemoDAL();
-                    var result = buisnessLayer.AddEmployee(employeeEntity);
+                    var dataAccessLayer = new ValidationDemoDAL();
+                    var result = dataAccessLayer.AddEmployee(employeeEntity);
                     Session["employee"] = null;
                     BindEmployeeGrid();
 
@@ -75,16 +75,13 @@ namespace AFDataValidation
                         txtEMail.Text = String.Empty;
                         lblMessage.Text = "Record added successfuly";
                     }
-                    else
-                    {
-                        lblMessage.ForeColor = Color.Red;
-                        foreach (var msg in result.Message)
-                            lblMessage.Text = msg + "<br/>";
-                    }
                 }
-
-
-
+                else
+                {
+                    lblMessage.ForeColor = Color.Red;
+                    foreach (var msg in validateResult.Message)
+                        lblMessage.Text += msg + "<br/>";
+                }
             }
             catch (Exception ex)
             {
