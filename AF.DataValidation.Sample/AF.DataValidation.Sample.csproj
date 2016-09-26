@@ -44,7 +44,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Architecture.Foundation.DataAccessor, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\AF.DataAccessor.1.0.2\lib\Architecture.Foundation.DataAccessor.dll</HintPath>
+      <HintPath>..\packages\AF.DataAccessor.1.0.4\lib\Architecture.Foundation.DataAccessor.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Architecture.Foundation.DataValidator, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
