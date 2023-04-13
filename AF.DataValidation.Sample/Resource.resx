@@ -118,6 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ID" xml:space="preserve">
-    <value>ID cant be blank</value>
+    <value>ID can not be blank</value>
+  </data>
+  <data name="Ph" xml:space="preserve">
+    <value>Phone number can not be blank</value>
   </data>
 </root>

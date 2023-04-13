@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
+﻿using System.Data.SqlClient;
 using Architecture.Foundation.DataAccessor;
 using AF.DataValidation.Sample;
 using Architecture.Foundation.DataAccessor.SqlClient;
@@ -83,7 +81,7 @@ namespace AFDataValidation
                 reader = ExecuteCommandAndReturnDataReader(procedure);
 
                 while (reader.Read())
-                    empList.Add(new ValidationEntity { EmpID = new Guid(reader["EmpID"].ToString()), Name = reader["Name"].ToString(), Address = reader["Address"].ToString(), EMail = reader["EMail"].ToString(), Phone = reader["Phone"].ToString() });
+                    empList.Add(new ValidationEntity { EmpID = new Guid(reader["EmployeeID"].ToString()), Name = reader["Name"].ToString(), Address = reader["Address"].ToString(), EMail = reader["EMail"].ToString(), Phone = reader["Phone"].ToString() });
 
                 reader.Close();
             }

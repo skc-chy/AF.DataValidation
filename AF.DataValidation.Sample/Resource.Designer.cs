@@ -19,7 +19,7 @@ namespace AF.DataValidation.Sample {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resource {
@@ -61,11 +61,20 @@ namespace AF.DataValidation.Sample {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ID cant be blank.
+        ///   Looks up a localized string similar to ID can not be blank.
         /// </summary>
         internal static string ID {
             get {
                 return ResourceManager.GetString("ID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Phone number can not be blank.
+        /// </summary>
+        internal static string Ph {
+            get {
+                return ResourceManager.GetString("Ph", resourceCulture);
             }
         }
     }

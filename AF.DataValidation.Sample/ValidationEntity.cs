@@ -1,5 +1,4 @@
-﻿using System;
-using Architecture.Foundation.Core.Interface.Validation;
+﻿using Architecture.Foundation.Core.Interface.Validation;
 using AF.DataValidation.Sample;
 using Architecture.Foundation.DataValidator;
 
@@ -29,10 +28,12 @@ namespace AFDataValidation
 
         //Hard coded message passed for validation
         [AFRequiredFieldValidator("Email could not be blank", new[] { ValidateOperations.Add, ValidateOperations.Update })]
+        [AFRegexValidator(@"^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$",true,"Email format is not correct", new[] {ValidateOperations.Add,ValidateOperations.Update})]
         public string EMail { get; set; }
 
         //Resource key passed for validation message
         [AFRequiredFieldValidator(typeof(Resource), "Ph", new[] { ValidateOperations.Add, ValidateOperations.Update })]
+        
         public string Phone { get; set; }
 
         public ValidateOperations ValidateOperation { get; set; }
