@@ -8,15 +8,15 @@
     ".NETCoreApp,Version=v6.0": {
       "AF.DataValidation.Sample/1.0.0": {
         "dependencies": {
-          "AF.DataAccessor": "2.0.1",
-          "AF.DataValidator": "2.0.0",
+          "AF.DataAccessor": "2.0.2",
+          "AF.DataValidator": "2.0.1",
           "System.Data.SqlClient": "4.8.5"
         },
         "runtime": {
           "AF.DataValidation.Sample.dll": {}
         }
       },
-      "AF.DataAccessor/2.0.1": {
+      "AF.DataAccessor/2.0.2": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "7.0.0",
           "Microsoft.Extensions.Configuration.Json": "7.0.0",
@@ -31,7 +31,7 @@
           }
         }
       },
-      "AF.DataValidator/2.0.0": {
+      "AF.DataValidator/2.0.1": {
         "runtime": {
           "lib/net6.0/Architecture.Core.Foundation.DataValidator.dll": {
             "assemblyVersion": "1.0.4.0",
@@ -436,19 +436,19 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AF.DataAccessor/2.0.1": {
+    "AF.DataAccessor/2.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-8HYZcivl+RX9/52voqsDiamAa7vj42wVdN4zu0Rx65D+GbiY6Yw8IvhUjN0XG+DNbt+GMm76PxXH2JXJdoGciA==",
-      "path": "af.dataaccessor/2.0.1",
-      "hashPath": "af.dataaccessor.2.0.1.nupkg.sha512"
+      "sha512": "sha512-Q9oUbI9XYLG1C+eUTIjpw2wHe/G31wt3zFLKodLJyGRvRXT8sdH+SNvnddNrHgnoDtxqfbmrL14Aj+SG6JX4ug==",
+      "path": "af.dataaccessor/2.0.2",
+      "hashPath": "af.dataaccessor.2.0.2.nupkg.sha512"
     },
-    "AF.DataValidator/2.0.0": {
+    "AF.DataValidator/2.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-5Az+qBx2YWjg/B3Ot1FUtBC7bFFst6oAdbwyZL0s7aAEY2VYG/DjssnkWwzWaVeaP2Wp6SZ8FgaDb1quAR+g5A==",
-      "path": "af.datavalidator/2.0.0",
-      "hashPath": "af.datavalidator.2.0.0.nupkg.sha512"
+      "sha512": "sha512-87vMLMA2Zd0/l/HAp53wrxHxEF7j88JMjr6DTl+jdTui0V9BUr+0TNEorSxiSlg3KF0LMAQH8Jz9XRXLy0yB7w==",
+      "path": "af.datavalidator/2.0.1",
+      "hashPath": "af.datavalidator.2.0.1.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/7.0.0": {
       "type": "package",

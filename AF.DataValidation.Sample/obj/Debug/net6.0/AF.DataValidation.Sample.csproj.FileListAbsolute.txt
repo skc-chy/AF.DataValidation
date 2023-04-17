@@ -1,5 +1,4 @@
 C:\Work\DotNetCoreFramework\SampleApplication\AF.DataValidator.Sample\AF.DataValidation.Sample\bin\Debug\net6.0\AF.DataValidation.Sample.exe
-C:\Work\DotNetCoreFramework\SampleApplication\AF.DataValidator.Sample\AF.DataValidation.Sample\bin\Debug\net6.0\AFDataAccessor.json
 C:\Work\DotNetCoreFramework\SampleApplication\AF.DataValidator.Sample\AF.DataValidation.Sample\bin\Debug\net6.0\AF.DataValidation.Sample.deps.json
 C:\Work\DotNetCoreFramework\SampleApplication\AF.DataValidator.Sample\AF.DataValidation.Sample\bin\Debug\net6.0\AF.DataValidation.Sample.runtimeconfig.json
 C:\Work\DotNetCoreFramework\SampleApplication\AF.DataValidator.Sample\AF.DataValidation.Sample\bin\Debug\net6.0\AF.DataValidation.Sample.dll
@@ -46,3 +45,4 @@ C:\Work\DotNetCoreFramework\SampleApplication\AF.DataValidator.Sample\AF.DataVal
 C:\Work\DotNetCoreFramework\SampleApplication\AF.DataValidator.Sample\AF.DataValidation.Sample\obj\Debug\net6.0\AF.DataValidation.Sample.pdb
 C:\Work\DotNetCoreFramework\SampleApplication\AF.DataValidator.Sample\AF.DataValidation.Sample\obj\Debug\net6.0\AF.DataValidation.Sample.genruntimeconfig.cache
 C:\Work\DotNetCoreFramework\SampleApplication\AF.DataValidator.Sample\AF.DataValidation.Sample\obj\Debug\net6.0\ref\AF.DataValidation.Sample.dll
+C:\Work\DotNetCoreFramework\SampleApplication\AF.DataValidator.Sample\AF.DataValidation.Sample\bin\Debug\net6.0\AFDataAccessor.json

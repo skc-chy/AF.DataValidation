@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AF.DataAccessor" Version="2.0.1" />
-    <PackageReference Include="AF.DataValidator" Version="2.0.0" />
+    <PackageReference Include="AF.DataAccessor" Version="2.0.2" />
+    <PackageReference Include="AF.DataValidator" Version="2.0.1" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
   </ItemGroup>
 
@@ -26,6 +26,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Update="C:\Users\SukantaChoudhurySIDG\.nuget\packages\af.dataaccessor\2.0.1\contentFiles\any\net6.0\AFDataAccessor.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\SukantaChoudhurySIDG\.nuget\packages\af.dataaccessor\2.0.2\contentFiles\any\net6.0\AFDataAccessor.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

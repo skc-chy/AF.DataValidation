@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "vbmmx+UULV7G61jWajE0U6lIr/5m4Xf0CFpPteC0Fq0fSzfD5hDenL5sUk3M9JxsoAW02bV1WH+yyhCYH8EYGA==",
+  "dgSpecHash": "cd+eIAdBO2PAL2VyB3r6nBPy7Oi/JZL1Hbe8uTfouVVkfIVvki+rDLyXIwXx85UtMLtDoX8fZgN0B8ct+17hww==",
   "success": true,
   "projectFilePath": "C:\\Work\\DotNetCoreFramework\\SampleApplication\\AF.DataValidator.Sample\\AF.DataValidation.Sample\\AF.DataValidation.Sample.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\SukantaChoudhurySIDG\\.nuget\\packages\\af.dataaccessor\\2.0.1\\af.dataaccessor.2.0.1.nupkg.sha512",
-    "C:\\Users\\SukantaChoudhurySIDG\\.nuget\\packages\\af.datavalidator\\2.0.0\\af.datavalidator.2.0.0.nupkg.sha512",
+    "C:\\Users\\SukantaChoudhurySIDG\\.nuget\\packages\\af.dataaccessor\\2.0.2\\af.dataaccessor.2.0.2.nupkg.sha512",
+    "C:\\Users\\SukantaChoudhurySIDG\\.nuget\\packages\\af.datavalidator\\2.0.1\\af.datavalidator.2.0.1.nupkg.sha512",
     "C:\\Users\\SukantaChoudhurySIDG\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\SukantaChoudhurySIDG\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\SukantaChoudhurySIDG\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\7.0.0\\microsoft.extensions.configuration.fileextensions.7.0.0.nupkg.sha512",
